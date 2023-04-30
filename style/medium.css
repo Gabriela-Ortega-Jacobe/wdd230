@@ -1,0 +1,14 @@
+    @media screen and (min-width: 550px) {
+  .myname{
+          font-size: 4.5rem;
+       color-scheme: rgb(254, 182, 182);
+       align-items: center;
+       padding-left: 50px;
+        }
+
+  footer { font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+          color: rgb(237, 156, 156);
+          
+      }
+  

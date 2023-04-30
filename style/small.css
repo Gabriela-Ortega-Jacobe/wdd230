@@ -1,0 +1,37 @@
+@media screen and (min-width: 150px) {
+
+.myname {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+    border-block-start-color: rgb(2, 2, 142);
+    font-size: 2.5rem;
+   }
+html {
+    background-color: rgb(253, 241, 253);
+}
+ul {
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+
+}
+h2 {font-family: 'Ubuntu', sans-serif;
+    color: rgb(9, 3, 83);
+    text-shadow: 2px 2px indianred;
+    }
+body { text-align: center;
+    
+}
+footer { font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 2, 126);
+}
+header{
+display: flex;
+background-color: rgb(66, 2, 126);
+align-items: center;
+padding: 26px;
+}
+.propic{
+    border-style:ridge;
+}
+}

@@ -1,0 +1,81 @@
+body {
+	font-size: 10px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+    color: #f8c6c6;
+    background-color: black;
+}
+img { height: 300px;
+	width: auto;}
+	
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+.box {
+	margin: 0.5rem;
+	border-style: outset;
+	border-color:  rgb(251, 133, 133);
+	border-width: 10px;
+	padding: 0 1rem;
+	}
+	
+
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main article:nth-child(2) {
+		display: block;
+	}
+
+	main article:nth-child(3) {
+		grid-column: span 2;
+	}
+
+	main article picture {
+		display: block;
+	}
+	main article picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+}
+
+
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	
+	
+	main article:nth-child(1) {
+	  grid-column: 1/2;
+  }
+	main article:nth-child(2) {
+	  grid-column: 2/3;
+		grid-row: 1/2;
+  }
+
+	main article:nth-child(3) {
+		grid-column: span 1;
+	}
+}
+
+header {
+    background-color: rgb(0, 11, 11);
+	font: Ubuntu;
+	text-align: center;
+}
+
+
+footer{
+    color: azure;
+    background-color: rgb(0, 11, 11);
+    text-align: center;
+    max-height: 60px;
+}
