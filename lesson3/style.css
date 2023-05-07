@@ -1,0 +1,159 @@
+footer {
+	background-color: #4359fd;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+    color:#eee;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+	
+}
+.title1 {
+	font-family: Ubuntu;
+	font-size: 2rem;
+    display: flex;
+    font-display: center;
+    align-items: center;
+	justify-content: center;
+    flex-flow: column;
+}
+.title2 {
+	font-family: Ubuntu;
+    color: #4359fd;
+    display: flex;
+    font-size: 1rem;
+    font-display: center;
+    align-items: center;
+	justify-content: center;
+    flex-flow: column;
+}
+
+.titlefont {
+	font-family: Ubuntu;
+	font-size: large;
+}
+li{
+	font-family: Source Code Pro;
+}
+
+.paragraphfont {
+	font-family: Source Code Pro;
+	font-size: large;
+}
+p {
+	padding: .5rem;
+	font-family: Source Code Pro;
+}
+
+nav {
+	font-family: Ubuntu;
+	background-color:#4359fd;
+	text-align: center;
+	box-shadow: 0 0 30px #117b52;
+	display: flex;
+	flex-direction: column;
+}
+
+
+nav a {
+	font-family: Ubuntu;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	font-family: Ubuntu;
+	background-color: #e9f3f3;
+	color: rgb(255, 162, 0);
+}
+
+main {
+	display: grid;
+	font-size: 0.85rem;
+	font-display: center;
+}
+h1{
+	font-family: Ubuntu;
+}
+
+h3 {font-family: Ubuntu;
+}
+h2{
+	font-family: Ubuntu;
+}
+
+
+.color1{
+	font-family: Ubuntu;
+	margin: 15px; 
+	padding: 15px;
+	color: whitesmoke;
+	font-size: large;
+	background-color: #122c34;
+}
+.color2{
+	font-family: Ubuntu;
+	margin: 15px; 
+	padding: 15px;
+	color: whitesmoke;
+	font-size: large;
+	background-color: #224870;
+}
+.color3{
+	font-family: Ubuntu;
+	margin: 15px; 
+	padding: 15px;
+	color: whitesmoke;
+	font-size: large;
+	background-color: #2a4494;
+}
+.color4{
+	font-family: Ubuntu;
+	margin: 15px; 
+	padding: 15px;
+	color: whitesmoke;
+	font-size: large;
+	background-color: #4ea5d9;
+}
+
+footer {
+	font-family: Ubuntu;
+	display: flex;
+	padding: 1rem;
+	justify-content: space-between;
+	font-weight: 700;
+}
+
+@media (min-width: 37.5em) {
+	nav {
+		flex-direction: row;
+	}
+	
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr;
+	}
+	main picture {
+		display: block;
+	}
+}
+
+@media (min-width: 48em) {
+	nav a {
+		font-size: 1.3rem;
+	}
+}
