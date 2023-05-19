@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation BOM</title>
+<style src="style.css">header {
+  font-family: 'Ubuntu', sans-serif;
+  color:  rgb(211, 35, 35);
+  border-block-start-color: rgb(2, 2, 142);
+  font-size: 2 rem;
+ }
+html {
+  background-color: rgb(253, 241, 253);
+}
+
+h1 {font-family: 'Ubuntu', sans-serif;
+  color: rgb(9, 3, 83);
+  text-shadow: 2px 2px rgb(236, 187, 187);
+  }
+body { text-align: center;
+  
+}
+
+header, footer {
+    padding: 0.5em 0;
+}
+
+
+main {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background-color: var(--secondary-bk-color);
+}
+
+footer { font-family: 'Ubuntu', sans-serif;
+  color: rgb(219, 214, 214);
+  background-color: rgb(47, 2, 88);
+}</style>
+ 
+</head>
+<body>
+    <header>
+        <h1> Book of Mormon - Top 25</h1>
+    </header>
+    <main>
+      <div>
+        <label for="item">Enter Book and chapter :</label>
+        <input type="text" name="item" id="item">
+        <button>Add chapter</button>
+      </div>
+  
+      <ul class="delete">
+  
+      </ul>
+
+      <script src="bom.js"> 
+        
+      </script>
+
+
+  
+    </main>
+    <footer>
+     <p>&copy; 2023 | Gabriela Ortega | Buenos Aires - Argentina| <span>BYU-I Online Learning</span></p> 
+    </footer>
+
+</body>
+</html>
+
