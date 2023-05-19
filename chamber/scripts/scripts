@@ -1,0 +1,11 @@
+const date = document.getElementById("date")
+
+function getCurrentDate() {
+    const curretDate = new Date(), 
+    options = {
+        weekdate: "long", date: "numeric", month: "short", year: "numeric"
+    }
+    date.innerHTML = currentDate.toLocalDateString ("eng", "options")
+}
+
+getCurrentDate()

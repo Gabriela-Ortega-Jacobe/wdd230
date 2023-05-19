@@ -1,0 +1,36 @@
+header {
+    font-family: 'Ubuntu', sans-serif;
+    color:  rgb(211, 35, 35);
+    border-block-start-color: rgb(2, 2, 142);
+    font-size: 2 rem;
+   }
+  html {
+    background-color: rgb(253, 241, 253);
+  }
+  
+  h1 {font-family: 'Ubuntu', sans-serif;
+    color: rgb(9, 3, 83);
+    text-shadow: 2px 2px rgb(236, 187, 187);
+    }
+  body { text-align: center;
+    
+  }
+  
+  header, footer {
+      padding: 0.5em 0;
+  }
+  
+  main {
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1em;
+      background-color: var(--secondary-bk-color);
+  }
+  
+  footer { font-family: 'Ubuntu', sans-serif;
+    color: rgb(219, 214, 214);
+    background-color: rgb(47, 2, 88);
+  }
+
