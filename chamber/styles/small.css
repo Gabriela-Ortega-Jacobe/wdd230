@@ -9,25 +9,6 @@
     color: #f4f7f5;
     height: 300px;
 }
-.accent1 {
-    background-color: #d10812;
-    color: #f4f7f5;
-    height: 300px;
-}
-.accent2 {
-    background-color: #dee5e5;
-    height: 300px;
-}
-.accent3 {
-    background-color: #f4f7f5;
-    height: 300px;
-}
-
-.colored {
-    background-color: #122c34;
-    color:#224870
-}
-
 
 * {
 	margin: 0;
@@ -37,10 +18,12 @@
 }
 body {
 	font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-h1{
+.pagetitle {
     font-family: Ubuntu;
+    align-items: center;
 }
 
 header {
@@ -68,12 +51,13 @@ header div #datetime{
 }
 
 
-.menu {
+.mimenu {
     grid-column: 1/4;
 }
 
-.logo {
-    width: 1rem;
+.logopic {
+    width: 10rem;
+    padding: 25px;
 }
 
 footer {
@@ -96,17 +80,14 @@ footer {
 }
 
 
-h1 {
-	font-size: 2rem;
+.pagetitle {
+	font-size: 35px;
     font-family: Ubuntu;
+
 }
 
 p {
 	padding: .5rem;
-    font-family: Ubuntu;
-}
-h1, p {
-    margin: 0 2vw;
     font-family: Ubuntu;
 }
 
@@ -123,15 +104,19 @@ a {
 }
 
 header div a {
-    margin: 1.5rem;
+    margin: 25 rem;
+    padding: 20px ;
+    align-items: right;
 }
 
 header .socialmedia a {
     margin: 0;
+    padding: 15px;
 }
 
 header div nav {
-    background-color: black;
+    background-color: #2a4494;
+   
 }
 
 header div nav ul {

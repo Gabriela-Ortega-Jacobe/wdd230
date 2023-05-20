@@ -1,43 +1,12 @@
 @media (min-width: 48em) {
     
-    header     
- {
-    display: flex;
- }
- 
- header div button {
-    display: none;
-}
 
-header div a {
-    margin: 1.5rem;
-}
-
-header .social a {
-    margin: auto;
-}
-
-nav ul#primaryNav {
-    display: flex;
-    justify-content: flex-start;
-    border-left: 1px solid rgba(0,0,0,0.3);
-}
-
-nav ul li a {
-    border: none;
-    border-right: 1px solid rgba(0,0,0,0.3)
-}
-
-nav ul li a {
-    padding: .5rem 1rem;
-}
 main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .menu {
-    grid-column: 2/3;
-    grid-row: 1/2;
+    display: flex;
 }
     .ourheroes {
         grid-column: 2/4;
