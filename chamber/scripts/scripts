@@ -1,11 +1,31 @@
-const date = document.getElementById("date")
+document.querySelector('#Â©').textContent = new Date(Date.now()).getFullYear();
 
-function getCurrentDate() {
-    const curretDate = new Date(), 
-    options = {
-        weekdate: "long", date: "numeric", month: "short", year: "numeric"
-    }
-    date.innerHTML = currentDate.toLocalDateString ("eng", "options")
+const opciones = 
+{ weekday: 'long', 
+year: 'numeric', 
+month: 'numeric', 
+day: 'numeric' };
+
+document.querySelector('#dateMod').textContent = 
+new Date(Date.now()).toLocaleString();
+
+const opciones2 = 
+{ weekday: 'long', 
+year: 'numeric', 
+month: 'long', 
+day: 'numeric' };
+
+
+document.querySelector('#datetime').textContent = 
+new Date(Date.now()).toLocaleString('en-US',opciones2);
+
+
+
+function toggleMenu() {
+    document.getElementById('primaryNav').classList.toggle('open');
+    document.getElementById('hamburguerBtn').classList.toggle('open');
 }
 
-getCurrentDate()
+const x = document.getElementById('hamburguerBtn');
+
+x.onclick = toggleMenu;
