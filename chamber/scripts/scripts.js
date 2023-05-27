@@ -1,9 +1,6 @@
-function currentDate() {
+const datefield = document.querySelector("time");
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
 
-    let d = new Date();
-    let dayName = daynames[d.getDay()];
-    let monthName = months[d.getMonth()];
-    let year = d.getFullYear();
-    let fulldate = dayName + "," + " " + d.getDate() + " " + monthName + " " + year;
-    document.getElementById("currentdate").textContent = fulldate;
-}
+datefield.textContent = fulldate;
+
