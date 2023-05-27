@@ -149,7 +149,16 @@
         grid-row: 1/3;
         justify-content: center;
     }
-    
+
+ 
+
+    .localweather {
+        height: auto;
+        font-size: smaller;
+    }
+
+
+
     footer {
         display: flex;
         padding: 1rem;
