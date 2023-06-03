@@ -1,0 +1,35 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: beige;
+}
+
+header {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px 0;
+}
+
+h1 {
+    display: flex;
+    font-size: 40px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    margin: auto; 
+}
+
+img {
+    transition: filter 0.5s;
+    margin-top: 15px;    
+}
+
+[data-src] {
+    min-width: 50px;
+    min-height: 50px;
+}
+
