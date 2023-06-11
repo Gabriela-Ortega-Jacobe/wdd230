@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,300;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>     
+        <div class="headings">
+            <img class="logopic" src="images/LogoSample_ByTailorBrands.jpg" alt="">
+            <h1 class="pagetitle">Pilar City Chamber of Commerce</h1>
+        </div>
+        <div class = "socialmedia">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo-.png" alt="facebook" width="45px"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter-logo.png" alt="twitter" width="45px"></a>
+            </div>
+        <div class="mimenu">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="join.html">Join</a>
+                <a href="#">Contact Us</a>
+                <a href="discover.html">Photo Gallery</a>
+            </nav>
+        </div>
+        <div>
+        <time id="header-date"></time></div>
+    </header>
+    
+<main>
+    <form method="get" action="thankyou.html">
+        <fieldset>
+            <legend>YOUR Personal Info</legend>
+            <label>First Name<input type="text" name="name" required></label>
+            <label>Last Name<input type="text" name="lastn" required></label>
+            <label>Job Title<input type="text" name="jobtitle" pattern="[A-Za-z19 -]{7,}"></label>
+            <label>Email <input type="email" name="email" placeholder="someone@domain.com" required></label>
+            <label>Telephone<input type="tel" name="Cel" placeholder="54911234567" required></label>
+            <label>Business Name<input type="text" name="bname" required></label>
+            <label>Business Information<input type="textarea" name="Extra"></label>
+        </fieldset>
+      </form>
+      <form method="get" action="thankyou.html">
+      <fieldset>
+      <legend>Choose your Membership Levels</legend>
+              <label><input type="radio" name="member" value="non-profit"> Non Pees Member (no fees)</label>
+              <br>
+            <label><input type="radio" name="member" value="bronze"> Bronze Member</label>
+            <br>
+            <label><input type="radio" name="member" value="silver"> Silver Member</label>
+            <br>
+            <label><input type="radio" name="member" value="gold"> Gold Member</label>
+        </fieldset>
+        <br>
+        <br>
+        <br>    
+        <table>
+                <caption>Membership Benefits</caption>
+                <thead>
+                    <tr>
+                        <th colspan="5" scope="colgroup"></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>Non-Profit (Free)</th>
+                        <th>Bronze ($5/month)</th>
+                        <th>Silver ($10/month)</th>
+                        <th>Gold ($15/month)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Activities Notification</th>
+                        <td>&#x2714;</td>
+                        <td>&#x2714;</td>
+                        <td>&#x2714;</td>
+                        <td>&#x2714;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Site Advertising</th>
+                        <td>&#x2716;</td>
+                        <td>&#x2714;</td>
+                        <td>&#x2714;</td>
+                        <td>&#x2714;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sales Training</th>
+                        <td>&#x2716;</td>
+                        <td>&#x2716;</td>
+                        <td>&#x2714;</td>
+                        <td>&#x2714;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Exclusive Events</th>
+                        <td>&#x2716;</td>
+                        <td>&#x2716;</td>
+                        <td>&#x2716;</td>
+                        <td>&#x2714;</td>
+                    </tr>
+                </tbody>
+        
+            </table>
+        
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    
+    <input type="submit" value="Join us!" class="joinBtn">
+</form>
+      
+</main>
+
+<footer>
+    <div class="contactinfo">
+        <p>Local 54 - Localidad de PILAR  | Phone: +(54) 1163030327
+        <br>
+        <a href="https://www.google.com/maps/place/Pilar,+Provincia+de+Buenos+Aires/@-34.493606,-58.9169082,12z/data=!4m15!1m8!3m7!1s0x95bc9cb6643d2003:0xa8da0402f634b636!2sPilar,+Provincia+de+Buenos+Aires!3b1!8m2!3d-34.4663154!4d-58.9153722!16zL20vMGJ6ejZ3!3m5!1s0x95bc9cb6643d2003:0xa8da0402f634b636!8m2!3d-34.4663154!4d-58.9153722!16zL20vMGJ6ejZ3">📍 Location
+            </a></p>
+            <br>
+    <p>
+        &copy; 2023 | Gabriela Ortega | Buenos Aires - Argentina| <span>BYU-I Online Learning</span>
+    </p>
+    <br>
+    
+    <script src="scripts/scripts.js"></script>    
+</footer>
+
+</body>
+</html>
