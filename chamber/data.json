@@ -7,7 +7,7 @@
             "order": 1,
             "membershiplevel": "Level 1",
             "web": "https://barbarella.com.ar",
-            "image": ""
+            "image": "images/logo 1.png"
         },
 
         {
@@ -17,7 +17,7 @@
             "order": 2,
             "membershiplevel": "Level 3",
             "web": "http://www.3arroyos.com.ar/",
-            "image": ""
+            "image": "images/logo 2.png"
         },
         {
             "name": "Poliex",
@@ -26,7 +26,7 @@
             "order": 3,
             "membershiplevel": "Level 2",
             "web": "https://poliex.com.ar/",
-            "image": ""
+            "image": "images/logo 3.png"
         },
         {
             "name": "Prodea Productos de Agua S.A.",
@@ -35,7 +35,7 @@
             "order": 4,
             "membershiplevel": "Level 3",
             "web": "http://www.prodea.com.ar/",
-            "image": ""
+            "image": "images/logo 4.png"
         },
         {
             "name": "Arcolor",
@@ -44,7 +44,7 @@
             "order": 5,
             "membershiplevel": "Level 1",
             "web": "https://arcolor-sa.com.ar/",
-            "image": ""
+            "image": "images/logo 5.png"
         },
         {
             "name": "Campo Austral",
@@ -53,7 +53,7 @@
             "order": 6,
             "membershiplevel": "Level 3",
             "web": "https://campoaustral.com.ar/",
-            "image": ""
+            "image": "images/logo 6.png"
         },
         {
             "name": "Proar Pilar",
@@ -62,7 +62,7 @@
             "order": 7,
             "membershiplevel": "Level 2",
             "web": "http://proarpilar.com/",
-            "image": ""
+            "image": "images/logo 7.png"
         },
         {
             "name": "Wepel",
@@ -71,7 +71,7 @@
             "order": 8,
             "membershiplevel": "Level 1",
             "web": "https://wepel.com.ar/",
-            "image": ""
+            "image": "images/logo 8.png"
         },
         {
             "name": "Riera",
@@ -80,7 +80,7 @@
             "order": 9,
             "membershiplevel": "Level 3",
             "web": "https://www.riera.com.ar/",
-            "image": ""
+            "image": "images/logo 9.png"
         }
         
     ]}
