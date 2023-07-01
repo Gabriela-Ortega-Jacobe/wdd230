@@ -1,29 +1,26 @@
-const busInfo = 'data.json';
+const url = "chamber/data.json"
 
-
-async function getBusData(busInfo) {
-    const response = await fetch(busInfo);
+async function getBusData(url) {
+    const response = await fetch(url);
     if (response.ok) {
         const data = await response.json();
         createCards(data.companies);
     }
 }
 
-
-
-getBusData(busInfo);
+getcompaniesData(url);
 
 const createCards = (companies) => {
-    const cards = document.querySelector('companies cards');
+    const cards = document.querySelector('#companies cards');
 
     business.forEach(companies => {
         let container = document.createElement('section');
         let icon = document.createElement('img');
-        let name = document.createElement('h2');
+        let busName = document.createElement('h2');
         let fullInfo = document.createElement('p');
         let memLevel = document.createElement('p');
 
-        busName.innerHTML = `${companies.name}`;
+        name.innerHTML = `${companies.name}`;
 
         icon.setAttribute('src', companies.image);
         icon.setAttribute('alt', `Logo for ${companies.name}`);
@@ -33,15 +30,14 @@ const createCards = (companies) => {
 
         
 
-        fullInfo.innerHTML = `${companies.address}<br>${companies.phone}<br><a href='${companies.web}'`;
-
-        memLevel.setAttribute('title', companies.membershiplevel);
-        memLevel.setAttribute('id', 'membership');
+        fullInfo.innerHTML = `${companies.address}<br>${companies.phone}<br><a href='${companies.web}`;
 
 
-        container.appendChild(image);
-        container.appendChild(name);
-        container.appendChild(membershiplevel);
+ 
+        container.appendChild(icon);
+        container.appendChild(busName);
+        container.appendChild(fullInfo);
+        container.appendChild(memLevel);
 
         cards.appendChild(container);
         
