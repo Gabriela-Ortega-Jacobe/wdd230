@@ -61,7 +61,8 @@
     
     
     .mimenu {
-        grid-column: 1/4;
+        grid-column: auto;
+        
     }
     
     

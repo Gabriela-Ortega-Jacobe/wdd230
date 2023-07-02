@@ -1,45 +1,40 @@
-const url = "chamber/data.json"
-
-async function getBusData(url) {
-    const response = await fetch(url);
-    if (response.ok) {
-        const data = await response.json();
-        createCards(data.companies);
-    }
-}
+const url = "https://gabriela-ortega-jacobe.github.io/wdd230/chamber/data.json";
 
 getcompaniesData(url);
 
-const createCards = (companies) => {
-    const cards = document.querySelector('#companies cards');
+async function getcompaniesData(url) {
+  const response = await fetch(url);
 
-    business.forEach(companies => {
-        let container = document.createElement('section');
-        let icon = document.createElement('img');
-        let busName = document.createElement('h2');
-        let fullInfo = document.createElement('p');
-        let memLevel = document.createElement('p');
-
-        name.innerHTML = `${companies.name}`;
-
-        icon.setAttribute('src', companies.image);
-        icon.setAttribute('alt', `Logo for ${companies.name}`);
-        icon.setAttribute('loading', 'lazy');
-        icon.setAttribute('width', '100');
-        icon.setAttribute('height', '100');
-
-        
-
-        fullInfo.innerHTML = `${companies.address}<br>${companies.phone}<br><a href='${companies.web}`;
-
-
- 
-        container.appendChild(icon);
-        container.appendChild(busName);
-        container.appendChild(fullInfo);
-        container.appendChild(memLevel);
-
-        cards.appendChild(container);
-        
-    });
+  if (response.ok) {
+    const data = await response.json();
+    console.log(data.companies);
+    displaycompanies(data.companies);
+  }
 }
+const displayBusiness = (companies) => {
+  const cards = document.querySelector('companiescards'); 
+  companies.forEach(companies) => {
+      
+      let card = document.createElement('section');
+      let h2 = document.createElement('h2');
+      let images = document.createElement('img');
+      let address = document.createElement ('p')
+  
+      
+      h2.textContent = `${companies.name} ____________`;
+  
+      
+      images.setAttribute('src', companies.images);
+      images.setAttribute('alt', `${companies.name} ______________`);
+      images.setAttribute('loading', 'lazy');
+      images.setAttribute('width', '340');
+      images.setAttribute('height', 'auto');
+  
+    
+      card.appendChild(h2);
+      card.appendChild(images);
+      card.appendChild(address);
+  
+      cards.appendChild(card);
+    }); 
+  } 
