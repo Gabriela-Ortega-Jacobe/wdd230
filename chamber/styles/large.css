@@ -65,7 +65,16 @@
         
     }
     
-    
+    .CONTACTINFO {
+        font-family: Ubuntu;
+        margin: 100 px;
+        box-sizing:border-box;
+        box-shadow: #122c34 10px 10px;
+        text-align: center;
+        display: flex;
+        text-justify: center;
+
+    }
     
     footer {
         background-color:#122c34;
@@ -154,6 +163,7 @@
         grid-column: 2/3;
         grid-row: 1/3;
         justify-content: center;
+        box-shadow: #122c34 10px 10px;
     }
 
  
@@ -161,6 +171,7 @@
     .localweather {
         height: auto;
         font-size: smaller;
+        box-shadow: #122c34 10px 10px;
     }
 
 
@@ -179,7 +190,7 @@
         background-color: #4ea5d9;
         border-color: #122c34;
         border-style: ridge;
-        
+        box-shadow: #122c34 10px 10px;
         margin-bottom: 15px;
         padding: 15px;
     }
