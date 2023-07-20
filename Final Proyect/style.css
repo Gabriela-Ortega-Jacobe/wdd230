@@ -41,10 +41,12 @@
 header,
 main,
 footer {
+	font-family: ;
         max-width: 1100px;
         margin: 0 auto;
         justify-content: center;
 }
+
 nav {
 	font-family: Ubuntu;
 	background-color:#ff8000;
@@ -94,6 +96,7 @@ nav a:hover {
 }
 header {
 	background-image: url(images/fondo.jpg);
+
 }
 
 .socialmedia {
@@ -102,8 +105,16 @@ header {
 .pie {
 	justify-content: center;
 	margin-left: -90px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.pie1{
+	justify-content: center;
+	margin-left: 390px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .formulario {
+	font-family: Quantico;
+	color: #ff8000;
 	margin: 0.5rem;
 	border-style: double;
 	border-color: #74f400;
