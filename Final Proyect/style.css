@@ -1,0 +1,113 @@
+.contenedor {
+    display: flex;
+    justify-content:center;
+    
+}
+.propic{
+    display: flex;
+    justify-content:center;
+    
+}
+.uno {
+	margin: 0.5rem;
+	border-style: double;
+	border-color:  #74f400;
+	border-width: 8px;
+	padding: 0 1rem;
+	}
+.dos {
+	margin: 0.5rem;
+	border-style: double;
+	border-color:  #74f400;
+	border-width: 8px;
+	padding: 0 1rem;
+	}
+.tres {
+	margin: 0.5rem;
+	border-style: double;
+	border-color: #74f400;
+	border-width: 8px;
+	padding: 0 1rem;
+	}
+.tresimage {
+	
+	margin: 0.5rem;
+	border-style: double;
+	border-color: #74f400;
+	border-width: 8px;
+	padding: 0 1rem;
+	
+}
+header,
+main,
+footer {
+        max-width: 1100px;
+        margin: 0 auto;
+        justify-content: center;
+}
+nav {
+	font-family: Ubuntu;
+	background-color:#ff8000;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+
+nav a {
+	font-family: Ubuntu;
+	display: block;
+	color: #8bff1f;
+	text-align: center;
+	padding: 25px;
+	text-decoration: none;
+	font-size: 0.9rem;
+    justify-content: center;
+}
+
+nav a:hover {
+	font-family: Ubuntu;
+	background-color: #ffff20;
+	color: rgb(255, 162, 0);
+    justify-content: center;
+}
+@media (min-width: 37.5em) {
+	nav {
+		flex-direction: row;
+	}
+	
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr;
+	}
+	main picture {
+		display: block;
+	}
+}
+
+@media (min-width: 48em) {
+	nav a {
+		font-size: 1.3rem;
+	}
+}
+header {
+	background-image: url(images/fondo.jpg);
+}
+
+.socialmedia {
+	margin-left: 460px;
+}
+.pie {
+	justify-content: center;
+	margin-left: -90px;
+}
+.formulario {
+	margin: 0.5rem;
+	border-style: double;
+	border-color: #74f400;
+	border-width: 8px;
+	padding: 0 1rem;
+	justify-content: center;
+}
